@@ -135,9 +135,12 @@ class Task < ActiveRecord::Base
           valid = false
         end
         
-        #get item link
+        #get item link and full name
         if !node.search(tag_item_link).first.nil? 
-          node.search(tag_item_link).first.attributes.map { |a,b| item.link = b if a=='href' }
+          node.search(tag_item_link).first.attributes.map do |a,b|
+            item.link = b if a=='href'
+            item.name = b if a=='title'
+          end
         else
           puts 'Can\'t find item link!'
           valid = false
