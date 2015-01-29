@@ -1,0 +1,34 @@
+<%= form_for(@feature) do |f| %>
+  <% if @feature.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@feature.errors.count, "error") %> prohibited this feature from being saved:</h2>
+
+      <ul>
+      <% @feature.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :name %>
+    <%= f.text_field :name, :class => "form-control" %>
+  </div>
+  <div class="field">
+    <%= f.label :tag_list %>
+    <%= f.text_field :tag_list, :class => "form-control" %>
+  </div>
+  <div class="field">
+    <%= f.label :tag_item_title %>
+    <%= f.text_field :tag_item_title, :class => "form-control" %>
+  </div>
+  <div class="field">
+    <%= f.label :tag_item_link %>
+    <%= f.text_field :tag_item_link, :class => "form-control" %>
+  </div>
+  <div class="actions">
+    <%= f.submit "Save", {:class  => "btn btn-success"} %>
+    <%= link_to 'Cancel', features_path, :class => "btn btn-default" %>
+  </div>
+<% end %>

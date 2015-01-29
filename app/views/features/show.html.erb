@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @feature.name %>
+</p>
+
+<p>
+  <strong>Tag list:</strong>
+  <%= @feature.tag_list %>
+</p>
+
+<p>
+  <strong>Tag item title:</strong>
+  <%= @feature.tag_item_title %>
+</p>
+
+<p>
+  <strong>Tag item link:</strong>
+  <%= @feature.tag_item_link %>
+</p>
+
+<%= link_to 'Edit', edit_feature_path(@feature) %> |
+<%= link_to 'Back', features_path %>

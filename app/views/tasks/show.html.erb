@@ -1,0 +1,27 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @task.name %>
+</p>
+
+<p>
+  <strong>Page:</strong>
+  <%= @task.page_id %>
+</p>
+
+<p>
+  <strong>Category:</strong>
+  <%= @task.category_id %>
+</p>
+
+<h2>Logs</h2>
+
+<% @task.task_logs.order("created_at DESC").each do |log| %>
+  <p>
+    [<%= log.created_at %>] total: <%= log.total %>, new: <%= log.success %>, error: <%= log.error %>
+  </p>
+<% end %>
+
+<%= link_to 'Edit', edit_task_path(@task) %> |
+<%= link_to 'Back', tasks_path %>

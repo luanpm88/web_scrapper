@@ -1,0 +1,42 @@
+<%= form_for(@link) do |f| %>
+  <% if @link.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@link.errors.count, "error") %> prohibited this link from being saved:</h2>
+
+      <ul>
+      <% @link.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :name %>
+    <%= f.text_field :name, :class => "form-control" %>
+  </div>
+  <div class="field">
+    <%= f.label :source_url %>
+    <%= f.text_field :source_url, :class => "form-control" %>
+  </div>
+  <div class="field">
+    <%= f.label :page_id %>
+    <%= f.collection_select(:page_id, Page.all, :id, :name,
+                    {:include_blank => "Nothing selected"}, {:class => "select2"}) %>
+  </div>
+  <div class="field">
+    <%= f.label :category_id %>
+    <%= f.collection_select(:category_id, Category.all, :id, :name,
+                    {:include_blank => "Nothing selected"}, {:class => "select2"}) %>
+  </div>
+  <div class="field">
+    <%= f.label :feature_id %>
+    <%= f.collection_select(:feature_id, Feature.all, :id, :name,
+                    {:include_blank => "Nothing selected"}, {:class => "select2"}) %>
+  </div>
+  <div class="actions">
+    <%= f.submit "Save", {:class  => "btn btn-success"} %>
+    <%= link_to "Test", test_link_links_url, {:class  => "btn btn-primary ajax-test-link-form"} %>
+    <%= link_to 'Cancel', links_path, :class => "btn btn-default" %>
+  </div>
+<% end %>

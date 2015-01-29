@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Task:</strong>
+  <%= @task_log.task_id %>
+</p>
+
+<p>
+  <strong>Total:</strong>
+  <%= @task_log.total %>
+</p>
+
+<p>
+  <strong>Error:</strong>
+  <%= @task_log.error %>
+</p>
+
+<p>
+  <strong>Success:</strong>
+  <%= @task_log.success %>
+</p>
+
+<%= link_to 'Edit', edit_task_log_path(@task_log) %> |
+<%= link_to 'Back', task_logs_path %>

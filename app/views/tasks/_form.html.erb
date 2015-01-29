@@ -1,0 +1,77 @@
+<%= form_for(@task) do |f| %>
+  <% if @task.errors.any? %>    
+    <div id="error_explanation">
+      <h2><%= pluralize(@task.errors.count, "error") %> prohibited this task from being saved:</h2>
+
+      <ul>
+      <% @task.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+  <div class="field">
+    <%= f.label :name %>
+    <%= f.text_field :name, :class  => "form-control" %>
+  </div>
+  <div class="field">
+    <%= f.label :page_id %>
+    <%= f.collection_select(:page_id, Page.all, :id, :name,
+                    {:include_blank => "Nothing selected"}, {:class  => "form-control"}) %>
+  </div>
+  <div class="field">
+    <%= f.label :category_id %>
+    <%= f.collection_select(:category_id, Category.all, :id, :name,
+                    {:include_blank => "Nothing selected"}, {:class  => "form-control"}) %>
+  </div>
+  <div class="field">
+    <%= f.label :min %>
+    <select name="task[min]" class="form-control">
+      <option value="*">Every minute</option>
+      <% 0.upto(59) do |num| %>
+        <option <% if num.to_s==@task.min %>selected="selected"<% end %> value="<%=num %>"><%=num %></option>
+      <% end %>
+    </select>    
+  </div>
+  <div class="field">
+    <%= f.label :hour %>
+    <select name="task[hour]" class="form-control">
+      <option value="*">Every hour</option>
+      <% 0.upto(59) do |num| %>
+        <option <% if num.to_s==@task.hour %>selected="selected"<% end %> value="<%=num %>"><%=num %></option>
+      <% end %>
+    </select>    
+  </div>
+  <div class="field">
+    <%= f.label :day %>
+    <select name="task[day]" class="select2">
+      <option value="*">Every day</option>
+      <% 0.upto(59) do |num| %>
+        <option <% if num.to_s==@task.day %>selected="selected"<% end %> value="<%=num %>"><%=num %></option>
+      <% end %>
+    </select>
+  </div>
+  <div class="field">
+    <%= f.label :month %>
+    <select name="task[month]" class="select2">
+      <option value="*">Every month</option>
+      <% 0.upto(59) do |num| %>
+        <option <% if num.to_s==@task.month %>selected="selected"<% end %> value="<%=num %>"><%=num %></option>
+      <% end %>
+    </select>
+  </div>
+  <div class="field">
+    <%= f.label "Day of Week" %>
+    <select name="task[week]" class="select2">
+      <option value="*">Every week</option>
+      <% 0.upto(59) do |num| %>
+        <option <% if num.to_s==@task.week %>selected="selected"<% end %> value="<%=num %>"><%=num %></option>
+      <% end %>
+    </select>
+  </div>
+  <div class="actions">
+    <%= f.submit "Submit", {:class  => "btn btn-primary"} %>
+    <%= f.button "Test", {:class  => "btn btn-default"} %>
+    <%= link_to 'Cancel', tasks_path, :class => "btn btn-default" %>
+  </div>
+<% end %>

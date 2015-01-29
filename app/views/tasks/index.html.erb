@@ -1,0 +1,64 @@
+      <div class="row">
+        <div class="col-lg-3">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              Filters
+            </div>
+            <div class="panel-body">
+              <form action="<%= items_path %>" metho="get">
+                <label>Page</label>
+                <select name="page_id" class="select2">
+                  <option value="">All</option>
+                  <% Page.all.order(:name).each do |page| %>
+                    <option value="<%= page.id %>"><%= page.name %></option>
+                  <% end %>
+                </select>
+                
+                <p></p>
+                <label>Category</label>
+                <select name="category_id" class="select2">
+                  <option value="">All</option>
+                  <% Category.all.order(:name).each do |cat| %>
+                    <option value="<%= cat.id %>"><%= cat.name %></option>
+                  <% end %>
+                </select>
+                
+                <p></p>
+                
+                <input type="submit" value="Submit" class="btn btn-primary" />
+              </form> 
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-9">
+          <% if notice %>
+            <div class="alert alert-success" role="alert">
+              <%= notice %>
+            </div>
+          <% end %>
+          
+          <h1>Listing Tasks</h1>
+          
+          <table class="table datatable-tasks">
+            <thead>
+              <tr>
+                <th>Name</th>      
+                <th>Website</th>
+                <th>Category</th>
+                <th>Statistic</th>
+                <th class="text-center">Schedule</th>
+                <th class="text-center">Auto</th>
+                <th></th>
+              </tr>
+            </thead>
+          
+            <tbody>
+              
+            </tbody>
+          </table>
+          
+          <br>
+          
+          <%= link_to 'New Task', new_task_path, :class => "btn btn-primary" %>
+        </div>
+      </div>

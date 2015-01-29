@@ -1,0 +1,33 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Listing Task Logs</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Task</th>
+      <th>Total</th>
+      <th>Error</th>
+      <th>Success</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @task_logs.each do |task_log| %>
+      <tr>
+        <td><%= task_log.task_id %></td>
+        <td><%= task_log.total %></td>
+        <td><%= task_log.error %></td>
+        <td><%= task_log.success %></td>
+        <td><%= link_to 'Show', task_log %></td>
+        <td><%= link_to 'Edit', edit_task_log_path(task_log) %></td>
+        <td><%= link_to 'Destroy', task_log, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Task log', new_task_log_path %>

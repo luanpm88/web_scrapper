@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @link.name %>
+</p>
+
+<p>
+  <strong>Source url:</strong>
+  <%= @link.source_url %>
+</p>
+
+<p>
+  <strong>Page:</strong>
+  <%= @link.page_id %>
+</p>
+
+<p>
+  <strong>Category:</strong>
+  <%= @link.category_id %>
+</p>
+
+<p>
+  <strong>Feature:</strong>
+  <%= @link.feature_id %>
+</p>
+
+<%= link_to 'Edit', edit_link_path(@link) %> |
+<%= link_to 'Back', links_path %>

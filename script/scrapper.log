@@ -1,0 +1,947 @@
+/home/luan/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/rubygems/core_ext/kernel_require.rb:55:in `require': cannot load such file -- active_record (LoadError)
+	from /home/luan/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+	from /home/luan/rails-apps/web_scrapper/script/scrapper.rb:1:in `<main>'
+/home/luan/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/rubygems/core_ext/kernel_require.rb:55:in `require': cannot load such file -- active_record (LoadError)
+	from /home/luan/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+	from /home/luan/rails-apps/web_scrapper/script/scrapper.rb:1:in `<main>'
+/home/luan/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/rubygems/core_ext/kernel_require.rb:55:in `require': cannot load such file -- active_record (LoadError)
+	from /home/luan/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+	from /home/luan/rails-apps/web_scrapper/script/scrapper.rb:1:in `<main>'
+/home/luan/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/rubygems/core_ext/kernel_require.rb:55:in `require': cannot load such file -- active_record (LoadError)
+	from /home/luan/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+	from /home/luan/rails-apps/web_scrapper/script/scrapper.rb:1:in `<main>'
+/home/luan/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/rubygems/core_ext/kernel_require.rb:55:in `require': cannot load such file -- active_record (LoadError)
+	from /home/luan/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+	from /home/luan/rails-apps/web_scrapper/script/scrapper.rb:1:in `<main>'
+/home/luan/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/rubygems/core_ext/kernel_require.rb:55:in `require': cannot load such file -- active_record (LoadError)
+	from /home/luan/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+	from /home/luan/rails-apps/web_scrapper/script/scrapper.rb:1:in `<main>'
+/home/luan/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/rubygems/core_ext/kernel_require.rb:55:in `require': cannot load such file -- active_record (LoadError)
+	from /home/luan/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+	from /home/luan/rails-apps/web_scrapper/script/scrapper.rb:1:in `<main>'
+/home/luan/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/rubygems/core_ext/kernel_require.rb:55:in `require': cannot load such file -- active_record (LoadError)
+	from /home/luan/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+	from /home/luan/rails-apps/web_scrapper/script/scrapper.rb:1:in `<main>'
+/home/luan/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/rubygems/core_ext/kernel_require.rb:55:in `require': cannot load such file -- active_record (LoadError)
+	from /home/luan/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+	from /home/luan/rails-apps/web_scrapper/script/scrapper.rb:1:in `<main>'
+/home/luan/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/rubygems/core_ext/kernel_require.rb:55:in `require': cannot load such file -- active_record (LoadError)
+	from /home/luan/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+	from /home/luan/rails-apps/web_scrapper/script/scrapper.rb:1:in `<main>'
+/home/luan/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/rubygems/core_ext/kernel_require.rb:55:in `require': cannot load such file -- active_record (LoadError)
+	from /home/luan/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+	from /home/luan/rails-apps/web_scrapper/script/scrapper.rb:1:in `<main>'
+/home/luan/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/rubygems/core_ext/kernel_require.rb:55:in `require': cannot load such file -- active_support (LoadError)
+	from /home/luan/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+	from /home/luan/.rvm/gems/ruby-2.1.2@rails4.2/gems/activerecord-4.2.0/lib/active_record.rb:24:in `<top (required)>'
+	from /home/luan/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+	from /home/luan/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+	from /home/luan/rails-apps/web_scrapper/script/scrapper.rb:1:in `<main>'
+/home/luan/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/rubygems/core_ext/kernel_require.rb:55:in `require': cannot load such file -- active_support (LoadError)
+	from /home/luan/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+	from /home/luan/.rvm/gems/ruby-2.1.2@rails4.2/gems/activerecord-4.2.0/lib/active_record.rb:24:in `<top (required)>'
+	from /home/luan/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+	from /home/luan/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+	from /home/luan/rails-apps/web_scrapper/script/scrapper.rb:1:in `<main>'
+/home/luan/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/rubygems/core_ext/kernel_require.rb:55:in `require': cannot load such file -- active_support (LoadError)
+	from /home/luan/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+	from /home/luan/.rvm/gems/ruby-2.1.2@rails4.2/gems/activerecord-4.2.0/lib/active_record.rb:24:in `<top (required)>'
+	from /home/luan/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+	from /home/luan/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+	from /home/luan/rails-apps/web_scrapper/script/scrapper.rb:1:in `<main>'
+/home/luan/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/rubygems/core_ext/kernel_require.rb:55:in `require': cannot load such file -- active_support (LoadError)
+	from /home/luan/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+	from /home/luan/.rvm/gems/ruby-2.1.2@rails4.2/gems/activerecord-4.2.0/lib/active_record.rb:24:in `<top (required)>'
+	from /home/luan/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+	from /home/luan/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+	from /home/luan/rails-apps/web_scrapper/script/scrapper.rb:1:in `<main>'
+/home/luan/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/rubygems/core_ext/kernel_require.rb:55:in `require': cannot load such file -- active_support (LoadError)
+	from /home/luan/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+	from /home/luan/.rvm/gems/ruby-2.1.2@rails4.2/gems/activerecord-4.2.0/lib/active_record.rb:24:in `<top (required)>'
+	from /home/luan/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+	from /home/luan/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+	from /home/luan/rails-apps/web_scrapper/script/scrapper.rb:1:in `<main>'
+/home/luan/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/rubygems/core_ext/kernel_require.rb:55:in `require': cannot load such file -- active_record (LoadError)
+	from /home/luan/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+	from /home/luan/rails-apps/web_scrapper/script/scrapper.rb:1:in `<main>'
+/home/luan/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/rubygems/core_ext/kernel_require.rb:55:in `require': cannot load such file -- active_record (LoadError)
+	from /home/luan/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+	from /home/luan/rails-apps/web_scrapper/script/scrapper.rb:1:in `<main>'
+/home/luan/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/rubygems/core_ext/kernel_require.rb:55:in `require': cannot load such file -- active_record (LoadError)
+	from /home/luan/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+	from scrapper.rb:1:in `<main>'
+/home/luan/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/rubygems/core_ext/kernel_require.rb:55:in `require': cannot load such file -- active_record (LoadError)
+	from /home/luan/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+	from scrapper.rb:1:in `<main>'
+/home/luan/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/rubygems/core_ext/kernel_require.rb:55:in `require': cannot load such file -- active_record (LoadError)
+	from /home/luan/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/bin/sh: 1: /home/luan/.rvm/gems/ruby-2.1.2@rails4.2/bin/ruby: not found
+/bin/sh: 1: /home/luan/.rvm/gems/ruby-2.1.2@rails4.2/bin/ruby: not found
+/bin/sh: 1: /home/luan/.rvm/gems/ruby-2.1.2@rails4.2/bin/ruby: not found
+/bin/sh: 1: /home/luan/.rvm/gems/ruby-2.1.2@rails4.2/bin/ruby: not found
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- active_record (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from scrapper.rb:1:in `<main>'
+/home/luan/.rvm/gems/ruby-2.1.2@rails4.2/gems/activesupport-4.2.0/lib/active_support/dependencies.rb:274:in `require': cannot load such file -- ../app/models/category.rb (LoadError)
+	from /home/luan/.rvm/gems/ruby-2.1.2@rails4.2/gems/activesupport-4.2.0/lib/active_support/dependencies.rb:274:in `block in require'
+	from /home/luan/.rvm/gems/ruby-2.1.2@rails4.2/gems/activesupport-4.2.0/lib/active_support/dependencies.rb:240:in `load_dependency'
+	from /home/luan/.rvm/gems/ruby-2.1.2@rails4.2/gems/activesupport-4.2.0/lib/active_support/dependencies.rb:274:in `require'
+	from script/scrapper.rb:12:in `<main>'
+/home/luan/.rvm/gems/ruby-2.1.2@rails4.2/gems/activesupport-4.2.0/lib/active_support/dependencies.rb:274:in `require': cannot load such file -- ../app/models/category.rb (LoadError)
+	from /home/luan/.rvm/gems/ruby-2.1.2@rails4.2/gems/activesupport-4.2.0/lib/active_support/dependencies.rb:274:in `block in require'
+	from /home/luan/.rvm/gems/ruby-2.1.2@rails4.2/gems/activesupport-4.2.0/lib/active_support/dependencies.rb:240:in `load_dependency'
+	from /home/luan/.rvm/gems/ruby-2.1.2@rails4.2/gems/activesupport-4.2.0/lib/active_support/dependencies.rb:274:in `require'
+	from script/scrapper.rb:12:in `<main>'
+/home/luan/.rvm/gems/ruby-2.1.2@rails4.2/gems/activesupport-4.2.0/lib/active_support/dependencies.rb:274:in `require': cannot load such file -- app/models/category.rb (LoadError)
+	from /home/luan/.rvm/gems/ruby-2.1.2@rails4.2/gems/activesupport-4.2.0/lib/active_support/dependencies.rb:274:in `block in require'
+	from /home/luan/.rvm/gems/ruby-2.1.2@rails4.2/gems/activesupport-4.2.0/lib/active_support/dependencies.rb:240:in `load_dependency'
+	from /home/luan/.rvm/gems/ruby-2.1.2@rails4.2/gems/activesupport-4.2.0/lib/active_support/dependencies.rb:274:in `require'
+	from script/scrapper.rb:12:in `<main>'
+/home/luan/.rvm/gems/ruby-2.1.2@rails4.2/gems/activesupport-4.2.0/lib/active_support/dependencies.rb:274:in `require': cannot load such file -- app/models/category.rb (LoadError)
+	from /home/luan/.rvm/gems/ruby-2.1.2@rails4.2/gems/activesupport-4.2.0/lib/active_support/dependencies.rb:274:in `block in require'
+	from /home/luan/.rvm/gems/ruby-2.1.2@rails4.2/gems/activesupport-4.2.0/lib/active_support/dependencies.rb:240:in `load_dependency'
+	from /home/luan/.rvm/gems/ruby-2.1.2@rails4.2/gems/activesupport-4.2.0/lib/active_support/dependencies.rb:274:in `require'
+	from script/scrapper.rb:14:in `<main>'
+app
+bin
+config
+config.ru
+crontab.tmp
+db
+Gemfile
+Gemfile.lock
+lib
+log
+public
+Rakefile
+README.rdoc
+script
+test
+tmp
+vendor
+/home/luan/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/rubygems/core_ext/kernel_require.rb:55:in `require': cannot load such file -- app/models/category.rb (LoadError)
+	from /home/luan/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+	from /home/luan/.rvm/gems/ruby-2.1.2@rails4.2/gems/activesupport-4.2.0/lib/active_support/dependencies.rb:274:in `block in require'
+	from /home/luan/.rvm/gems/ruby-2.1.2@rails4.2/gems/activesupport-4.2.0/lib/active_support/dependencies.rb:240:in `load_dependency'
+	from /home/luan/.rvm/gems/ruby-2.1.2@rails4.2/gems/activesupport-4.2.0/lib/active_support/dependencies.rb:274:in `require'
+	from script/scrapper.rb:12:in `<main>'
+/home/luan/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/rubygems/core_ext/kernel_require.rb:55:in `require': cannot load such file -- app/models/category.rb (LoadError)
+	from /home/luan/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+	from /home/luan/.rvm/gems/ruby-2.1.2@rails4.2/gems/activesupport-4.2.0/lib/active_support/dependencies.rb:274:in `block in require'
+	from /home/luan/.rvm/gems/ruby-2.1.2@rails4.2/gems/activesupport-4.2.0/lib/active_support/dependencies.rb:240:in `load_dependency'
+	from /home/luan/.rvm/gems/ruby-2.1.2@rails4.2/gems/activesupport-4.2.0/lib/active_support/dependencies.rb:274:in `require'
+	from script/scrapper.rb:14:in `<main>'
+app
+bin
+config
+config.ru
+crontab.tmp
+db
+Gemfile
+Gemfile.lock
+lib
+log
+public
+Rakefile
+README.rdoc
+script
+test
+tmp
+vendor
+/home/luan/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/net/protocol.rb:155:in `select': Interrupt
+	from /home/luan/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/net/protocol.rb:155:in `rescue in rbuf_fill'
+	from /home/luan/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/net/protocol.rb:152:in `rbuf_fill'
+	from /home/luan/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/net/protocol.rb:134:in `readuntil'
+	from /home/luan/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/net/protocol.rb:144:in `readline'
+	from /home/luan/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/net/http/response.rb:39:in `read_status_line'
+	from /home/luan/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/net/http/response.rb:28:in `read_new'
+	from /home/luan/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/net/http.rb:1408:in `block in transport_request'
+	from /home/luan/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/net/http.rb:1405:in `catch'
+	from /home/luan/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/net/http.rb:1405:in `transport_request'
+	from /home/luan/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/net/http.rb:1378:in `request'
+	from /home/luan/.rvm/gems/ruby-2.1.2@rails4.2/gems/net-http-persistent-2.9.4/lib/net/http/persistent.rb:999:in `request'
+	from /home/luan/.rvm/gems/ruby-2.1.2@rails4.2/gems/mechanize-2.7.3/lib/mechanize/http/agent.rb:259:in `fetch'
+	from /home/luan/.rvm/gems/ruby-2.1.2@rails4.2/gems/mechanize-2.7.3/lib/mechanize.rb:440:in `get'
+	from /home/luan/rails-apps/web_scrapper/app/models/task.rb:35:in `scrap_link'
+	from /home/luan/rails-apps/web_scrapper/app/models/task.rb:21:in `block in scrap_links'
+	from /home/luan/.rvm/gems/ruby-2.1.2@rails4.2/gems/activerecord-4.2.0/lib/active_record/relation/delegation.rb:46:in `each'
+	from /home/luan/.rvm/gems/ruby-2.1.2@rails4.2/gems/activerecord-4.2.0/lib/active_record/relation/delegation.rb:46:in `each'
+	from /home/luan/rails-apps/web_scrapper/app/models/task.rb:20:in `scrap_links'
+	from script/scrapper.rb:28:in `block in <main>'
+	from script/scrapper.rb:27:in `upto'
+	from script/scrapper.rb:27:in `<main>'
+/home/luan/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/net/protocol.rb:155:in `select': Interrupt
+	from /home/luan/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/net/protocol.rb:155:in `rescue in rbuf_fill'
+	from /home/luan/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/net/protocol.rb:152:in `rbuf_fill'
+	from /home/luan/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/net/protocol.rb:134:in `readuntil'
+	from /home/luan/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/net/protocol.rb:144:in `readline'
+	from /home/luan/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/net/http/response.rb:307:in `read_chunked'
+	from /home/luan/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/net/http/response.rb:276:in `block in read_body_0'
+	from /home/luan/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/net/http/response.rb:250:in `inflater'
+	from /home/luan/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/net/http/response.rb:274:in `read_body_0'
+	from /home/luan/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/net/http/response.rb:201:in `read_body'
+	from /home/luan/.rvm/gems/ruby-2.1.2@rails4.2/gems/mechanize-2.7.3/lib/mechanize/http/agent.rb:903:in `response_read'
+	from /home/luan/.rvm/gems/ruby-2.1.2@rails4.2/gems/mechanize-2.7.3/lib/mechanize/http/agent.rb:262:in `block in fetch'
+	from /home/luan/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/net/http.rb:1415:in `block (2 levels) in transport_request'
+	from /home/luan/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/net/http/response.rb:162:in `reading_body'
+	from /home/luan/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/net/http.rb:1414:in `block in transport_request'
+	from /home/luan/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/net/http.rb:1405:in `catch'
+	from /home/luan/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/net/http.rb:1405:in `transport_request'
+	from /home/luan/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/net/http.rb:1378:in `request'
+	from /home/luan/.rvm/gems/ruby-2.1.2@rails4.2/gems/net-http-persistent-2.9.4/lib/net/http/persistent.rb:999:in `request'
+	from /home/luan/.rvm/gems/ruby-2.1.2@rails4.2/gems/mechanize-2.7.3/lib/mechanize/http/agent.rb:259:in `fetch'
+	from /home/luan/.rvm/gems/ruby-2.1.2@rails4.2/gems/mechanize-2.7.3/lib/mechanize/http/agent.rb:976:in `response_redirect'
+	from /home/luan/.rvm/gems/ruby-2.1.2@rails4.2/gems/mechanize-2.7.3/lib/mechanize/http/agent.rb:300:in `fetch'
+	from /home/luan/.rvm/gems/ruby-2.1.2@rails4.2/gems/mechanize-2.7.3/lib/mechanize.rb:440:in `get'
+	from /home/luan/rails-apps/web_scrapper/app/models/task.rb:35:in `scrap_link'
+	from /home/luan/rails-apps/web_scrapper/app/models/task.rb:21:in `block in scrap_links'
+	from /home/luan/.rvm/gems/ruby-2.1.2@rails4.2/gems/activerecord-4.2.0/lib/active_record/relation/delegation.rb:46:in `each'
+	from /home/luan/.rvm/gems/ruby-2.1.2@rails4.2/gems/activerecord-4.2.0/lib/active_record/relation/delegation.rb:46:in `each'
+	from /home/luan/rails-apps/web_scrapper/app/models/task.rb:20:in `scrap_links'
+	from script/scrapper.rb:28:in `block in <main>'
+	from script/scrapper.rb:27:in `upto'
+	from script/scrapper.rb:27:in `<main>'
+/home/luan/rails-apps/web_scrapper/app/models/task.rb:27:in `scrap_links': undefined method `now' for nil:NilClass (NoMethodError)
+	from script/scrapper.rb:28:in `block in <main>'
+	from script/scrapper.rb:27:in `upto'
+	from script/scrapper.rb:27:in `<main>'
+/home/luan/rails-apps/web_scrapper/app/models/task.rb:27:in `scrap_links': undefined method `now' for nil:NilClass (NoMethodError)
+	from script/scrapper.rb:28:in `block in <main>'
+	from script/scrapper.rb:27:in `upto'
+	from script/scrapper.rb:27:in `<main>'
+/home/luan/.rvm/gems/ruby-2.1.2@rails4.2/gems/activerecord-4.2.0/lib/active_record/relation/delegation.rb:136:in `method_missing': undefined method `add' for #<TaskLog::ActiveRecord_Associations_CollectionProxy:0x000000044ffe30> (NoMethodError)
+	from /home/luan/.rvm/gems/ruby-2.1.2@rails4.2/gems/activerecord-4.2.0/lib/active_record/relation/delegation.rb:99:in `method_missing'
+	from /home/luan/rails-apps/web_scrapper/app/models/task.rb:43:in `scrap_link'
+	from /home/luan/rails-apps/web_scrapper/app/models/task.rb:28:in `block in scrap_links'
+	from /home/luan/.rvm/gems/ruby-2.1.2@rails4.2/gems/activerecord-4.2.0/lib/active_record/relation/delegation.rb:46:in `each'
+	from /home/luan/.rvm/gems/ruby-2.1.2@rails4.2/gems/activerecord-4.2.0/lib/active_record/relation/delegation.rb:46:in `each'
+	from /home/luan/rails-apps/web_scrapper/app/models/task.rb:27:in `scrap_links'
+	from script/scrapper.rb:27:in `<main>'
+/home/luan/.rvm/gems/ruby-2.1.2@rails4.2/gems/activemodel-4.2.0/lib/active_model/attribute_methods.rb:433:in `method_missing': undefined local variable or method `link_id' for #<Task:0x00000003882b80> (NameError)
+	from /home/luan/rails-apps/web_scrapper/app/models/task.rb:64:in `block in save_items'
+	from /home/luan/rails-apps/web_scrapper/app/models/task.rb:63:in `each'
+	from /home/luan/rails-apps/web_scrapper/app/models/task.rb:63:in `save_items'
+	from /home/luan/rails-apps/web_scrapper/app/models/task.rb:44:in `scrap_link'
+	from /home/luan/rails-apps/web_scrapper/app/models/task.rb:28:in `block in scrap_links'
+	from /home/luan/.rvm/gems/ruby-2.1.2@rails4.2/gems/activerecord-4.2.0/lib/active_record/relation/delegation.rb:46:in `each'
+	from /home/luan/.rvm/gems/ruby-2.1.2@rails4.2/gems/activerecord-4.2.0/lib/active_record/relation/delegation.rb:46:in `each'
+	from /home/luan/rails-apps/web_scrapper/app/models/task.rb:27:in `scrap_links'
+	from script/scrapper.rb:27:in `<main>'

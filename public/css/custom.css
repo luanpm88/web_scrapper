@@ -1,0 +1,17 @@
+.field_with_errors input, .field_with_errors select {
+    border-color: #a94442;
+}
+.select2-selection--single {
+    overflow: hidden;
+}
+select.select2 {
+    padding-right: 20px;
+    max-width: 100%;
+}
+label {
+    display: block;
+    margin-top: 15px;
+}
+form .actions {
+    margin-top: 25px;
+}
