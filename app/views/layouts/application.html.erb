@@ -69,7 +69,7 @@
                 },
             } );
             
-            $("select[name='page_id'],select[name='category_id']").change(function() {
+            $("select[name='page_id'],select[name='category_id'],select[name='feature_id']").change(function() {
 		$('.datatable-items').dataTable().fnFilter();
                 $('.datatable-tasks').dataTable().fnFilter();
                 $('.datatable-links').dataTable().fnFilter();
