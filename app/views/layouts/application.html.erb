@@ -31,6 +31,8 @@
     <script>
      
       $(document).ready(function() {
+           
+            
             $('.datatable-items').dataTable( {
                 "processing": true,
                 "serverSide": true,
@@ -43,10 +45,6 @@
                 },
             } );
             
-            $("select[name='page_id'],select[name='category_id']").change(function() {
-		$('.datatable-items').dataTable().fnFilter();
-	    });
-            
             $('.datatable-tasks').dataTable( {
                 "processing": true,
                 "serverSide": true,
@@ -58,10 +56,27 @@
                     }
                 },
             } );
+            $('.datatable-links').dataTable( {
+                "processing": true,
+                "serverSide": true,
+                "ajax": {
+                    "url": "<%= datatable_links_path %>",
+                    "data": function ( d ) {
+                        d.page_id = $("select[name='page_id']").val(),
+                        d.category_id = $("select[name='category_id']").val(),
+                        d.category_id = $("select[name='feature_id']").val()
+                    }
+                },
+            } );
             
             $("select[name='page_id'],select[name='category_id']").change(function() {
-		$('.datatable-tasks').dataTable().fnFilter();
+		$('.datatable-items').dataTable().fnFilter();
+                $('.datatable-tasks').dataTable().fnFilter();
+                $('.datatable-links').dataTable().fnFilter();
 	    });
+            
+            
+            
             
             $(".ajax-test-link-form").on("click", function(event){
               event.preventDefault();
@@ -100,17 +115,7 @@
             });
             
             
-            $('.datatable-links').dataTable( {
-                "processing": true,
-                "serverSide": true,
-                "ajax": {
-                    "url": "<%= datatable_links_path %>",
-                    "data": function ( d ) {
-                        d.page_id = $("select[name='page_id']").val(),
-                        d.category_id = $("select[name='category_id']").val()
-                    }
-                },
-            } );
+            
             
             $('select').select2();
       });
