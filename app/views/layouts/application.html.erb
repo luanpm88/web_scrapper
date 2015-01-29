@@ -1,14 +1,196 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <title>WebScrapper</title>
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
-  <%= csrf_meta_tags %>
-</head>
-<body>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-<%= yield %>
+    <title>Fixed Top Navbar Example for Bootstrap</title>
+    
+    <%= javascript_include_tag 'application' %>
+    
+    <!-- Bootstrap core CSS -->
+    <%= stylesheet_link_tag '/css/bootstrap.min' %>
+    <%= stylesheet_link_tag '/js/datatable/css/jquery.dataTables.min' %>
+    <%= stylesheet_link_tag '/css/select2.min' %>
+    <%= stylesheet_link_tag '/css/custom' %>
+    
+    <!-- Custom styles for this template -->
+    <%= stylesheet_link_tag '/css/navbar-fixed-top' %>
+    
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    
+    <%= csrf_meta_tags %>
+    
+    <script>
+     
+      $(document).ready(function() {
+            $('.datatable-items').dataTable( {
+                "processing": true,
+                "serverSide": true,
+                "ajax": {
+                    "url": "<%= datatable_items_path %>",
+                    "data": function ( d ) {
+                        d.page_id = $("select[name='page_id']").val(),
+                        d.category_id = $("select[name='category_id']").val()
+                    }
+                },
+            } );
+            
+            $("select[name='page_id'],select[name='category_id']").change(function() {
+		$('.datatable-items').dataTable().fnFilter();
+	    });
+            
+            $('.datatable-tasks').dataTable( {
+                "processing": true,
+                "serverSide": true,
+                "ajax": {
+                    "url": "<%= datatable_tasks_path %>",
+                    "data": function ( d ) {
+                        d.page_id = $("select[name='page_id']").val(),
+                        d.category_id = $("select[name='category_id']").val()
+                    }
+                },
+            } );
+            
+            $("select[name='page_id'],select[name='category_id']").change(function() {
+		$('.datatable-tasks').dataTable().fnFilter();
+	    });
+            
+            $(".ajax-test-link-form").on("click", function(event){
+              event.preventDefault();
+              item = $(this);
+              item.html("Running...");
+              //if has form
+              $('#new_link, .edit_link').ajaxSubmit({
+                  url: '<%= test_link_links_url %>',
+                  success: function(response) {
+                      alert(response);
+                      item.html("Test");
+                  },
+                  error: function () {
+                      alert("Invalid Input!");
+                      item.html("Test");
+                  }
+              });
+            });
+            
+            $(".ajax-test-link-link").on("click", function(event){
+              event.preventDefault();
+              item = $(this);
+              item.html("Running...");
+              //if has form
+              $.ajax({
+                  url: item.attr("href"),
+                  success: function(response) {
+                      alert(response);
+                      item.html("Test");
+                  },
+                  error: function () {
+                      alert("Invalid Input!");
+                      item.html("Test");
+                  }
+              });
+            });
+            
+            
+            $('.datatable-links').dataTable( {
+                "processing": true,
+                "serverSide": true,
+                "ajax": {
+                    "url": "<%= datatable_links_path %>",
+                    "data": function ( d ) {
+                        d.page_id = $("select[name='page_id']").val(),
+                        d.category_id = $("select[name='category_id']").val()
+                    }
+                },
+            } );
+            
+            $('select').select2();
+      });
+    </script>
+    
+  </head>
 
-</body>
+  <body>
+
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">
+                <span class="glyphicon glyphicon-home"></span>
+          </a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <!--<li class="dropdown <%= "active" if params[:controller] == "tasks" %>">
+              <%= link_to 'Tasks <span class="caret"></span>'.html_safe, tasks_path, :class => "dropdown-toggle", "data-toggle" => "dropdown", :role => "button", "aria-expanded" => "false" %>
+              <ul class="dropdown-menu" role="menu">
+                <li><%= link_to 'All'.html_safe, tasks_path %></li>
+                
+              </ul>
+            </li>-->
+            <li class="<%= "active" if params[:controller] == "tasks" %>">
+              <%= link_to "Tasks", tasks_path %>
+            </li>
+            <li class="<%= "active" if params[:controller] == "items" %>">
+              <%= link_to "Items", items_path %>
+            </li>
+            <li class="<%= "active" if params[:controller] == "pages" %>">
+              <%= link_to "Pages", pages_path %>
+            </li>
+            <li class="<%= "active" if params[:controller] == "categories" %>">
+              <%= link_to "Categories", categories_path %>
+            </li>
+            <li class="<%= "active" if params[:controller] == "features" %>">
+              <%= link_to "Features", features_path %>
+            </li>
+            <li class="<%= "active" if params[:controller] == "links" %>">
+              <%= link_to "Links", links_path %>
+            </li>
+            
+          </ul>
+          <!--<ul class="nav navbar-nav navbar-right">
+            <li><a href="../navbar/">Default</a></li>
+            <li><a href="../navbar-static-top/">Static top</a></li>
+            <li class="active"><a href="./">Fixed top <span class="sr-only">(current)</span></a></li>
+          </ul>-->
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+    <div class="container">
+        
+      <%= yield %>
+
+    </div> <!-- /container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    
+    <%= javascript_include_tag '/js/bootstrap.min' %>
+    <%= javascript_include_tag '/js/datatable/js/jquery.dataTables.min' %>
+    <%= javascript_include_tag '/js/jquery.form' %>
+    <%= javascript_include_tag '/js/select2.full.min' %>
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <%= javascript_include_tag '/js/ie10-viewport-bug-workaround' %>
+
+  </body>
 </html>

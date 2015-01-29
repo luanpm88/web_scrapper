@@ -1,11 +1,41 @@
 Rails.application.routes.draw do
-  resources :controllers
+  resources :items do
+    collection do
+      get 'datatable'
+    end
+  end
+  
+  resources :tasks do
+    collection do
+      get 'run'
+      get 'start'
+      get 'stop'
+      get 'datatable'
+    end
+  end
+
+  resources :links do
+    collection do
+      get 'enable'
+      get 'disable'
+      get 'test_link'
+      post 'test_link'
+      patch 'test_link'
+      get 'datatable'
+    end
+  end
+
+  resources :features
+
+  resources :pages
+
+  resources :categories
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
-  # root 'welcome#index'
+  root 'items#index'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
@@ -15,6 +45,7 @@ Rails.application.routes.draw do
 
   # Example resource route (maps HTTP verbs to controller actions automatically):
   #   resources :products
+  
 
   # Example resource route with options:
   #   resources :products do
