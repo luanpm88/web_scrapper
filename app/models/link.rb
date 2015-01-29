@@ -108,7 +108,7 @@ class Link < ActiveRecord::Base
                         Actions <span class="caret"></span>
                       </button>
                       <ul class="dropdown-menu" role="menu">
-                        <li>'+link_helper.link_to('Test', {controller: "links", action: "test_link", id: item.id})+'</li>
+                        <li>'+link_helper.link_to('Test', {controller: "links", action: "test_link", id: item.id}, :class=>"ajax-test-link-link")+'</li>
                         <li>'+link_helper.link_to('Edit', {controller: "links", action: "edit", id: item.id})+'</li>
                         <li>'+link_helper.link_to('Destroy', {controller: "links", id: item.id},"data-confirm" => "Are you sure?", "data-method" => "delete")+'</li>          
                       </ul>
