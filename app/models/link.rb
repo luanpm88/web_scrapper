@@ -82,6 +82,7 @@ class Link < ActiveRecord::Base
     where = {}    
     where[:category_id] = params["category_id"] if !params["category_id"].empty?
     where[:page_id] = params["page_id"] if !params["page_id"].empty?
+    where[:feature_id] = params["feature_id"] if !params["feature_id"].empty?
     search_q = "LOWER(pages.name) LIKE '%#{params["search"]["value"].downcase}%' OR LOWER(categories.name) LIKE '%#{params["search"]["value"].downcase}%' OR LOWER(links.name) LIKE '%#{params["search"]["value"].downcase}%'" if !params["search"]["value"].empty?
     
     
