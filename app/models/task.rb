@@ -39,7 +39,7 @@ class Task < ActiveRecord::Base
     
     #search images
     images = []
-    if !feature.innerpage_image_regex.empty?
+    if feature.innerpage_image_regex.present?
       image_urls = content.scan(/#{feature.innerpage_image_regex}/)
       image_urls = image_urls.uniq      
       
