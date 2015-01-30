@@ -1,5 +1,5 @@
 class ItemsController < ApplicationController
-  before_action :set_item, only: [:show, :edit, :update, :destroy]
+  before_action :set_item, only: [:show, :edit, :update, :destroy, :scrap_details]
 
   # GET /items
   # GET /items.json
@@ -65,6 +65,20 @@ class ItemsController < ApplicationController
       format.html { redirect_to items_url, notice: 'Item was successfully destroyed.' }
       format.json { head :no_content }
     end
+  end
+  
+  def scrap_details
+    
+    respond_to do |format|
+      if @item.scrap_details
+        format.html { redirect_to items_url, notice: 'Item was successfully scrapped.' }
+        format.json { head :no_content }
+      else
+        format.html { redirect_to items_url, notice: 'Item was unsuccessfully scrapped.' }
+        format.json { head :no_content }
+      end
+    end
+
   end
 
   private

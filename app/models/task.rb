@@ -1,6 +1,7 @@
 class Task < ActiveRecord::Base
   belongs_to :page
   belongs_to :category
+  belongs_to :link
   
   has_many :items
   has_many :task_logs
@@ -21,19 +22,58 @@ class Task < ActiveRecord::Base
   end
   
   def run
-    self.started_at = DateTime.now
-    self.save
-    
-    system("ruby script/scrapper.rb #{self.id} >> script/scrapper.log 2>&1 &")
+    system("ruby scrapper.rb #{self.id} >> scrapper.log 2>&1 &")
   end
   
+  def self.render_item(item)
+    feature = item.page_link.feature
+    
+    m = Mechanize.new
+    begin
+      page = m.get(item.link)
+    rescue Exception => e
+      puts e.message
+      return {images: []}
+    end
+    content = page.search('body').text
+    
+    #search images
+    images = []
+    if !feature.innerpage_image_regex.empty?
+      image_urls = content.scan(/#{feature.innerpage_image_regex}/)
+      image_urls = image_urls.uniq      
+      
+      if image_urls.count > 0
+        image_urls.each do |url|
+          if !url.empty? 
+            image = item.images.new(source_url: url.first)
+            images << image
+          end
+        end
+      else
+        puts "Can't find images"
+      end
+    end
+    
+    return {images: images}
+      
+  end
+  
+  
+  
   def scrap_links
+    self.update_attribute('started_at', DateTime.now)
+    
     self.links.where(status: 1).each do |link|
       scrap_link(link.id)
     end
     
-    self.finished_at = DateTime.now
-    self.save
+    #scrap item details
+    self.links.where(status: 1).each do |link|
+      link.scrap_items
+    end
+    
+    self.update_attribute('finished_at', DateTime.now)
   end
  
   def scrap_link(link_id)
@@ -49,7 +89,7 @@ class Task < ActiveRecord::Base
     self.task_logs << log
     
     # disable link if not valid
-    if Task.is_valid_link(log)
+    if !Task.is_valid_link(log)
       link.invalid
     end    
     
@@ -112,8 +152,8 @@ class Task < ActiveRecord::Base
     
     begin
       page = m.get(source_url)
-    rescue
-      return {items: [], log: TaskLog.new(total: 0, error: 0)}
+    rescue  Exception => e
+      return {items: [], log: TaskLog.new(total: 0, error: 0, error_message: e.message)}
     end
     
     list = page.search(tag_list)

@@ -2,7 +2,7 @@ require 'active_record'
 require 'mechanize'
 require 'open-uri'
 
-DIR = File.expand_path(File.dirname(__FILE__)).gsub("/script","")
+DIR = File.expand_path(File.dirname(__FILE__))
 
 # Change the following to reflect your database settings
 ActiveRecord::Base.establish_connection(
@@ -18,8 +18,7 @@ require DIR+'/app/models/link.rb'
 require DIR+'/app/models/page.rb'
 require DIR+'/app/models/task.rb'
 require DIR+'/app/models/task_log.rb'
-
-Task.test_root
+require DIR+'/app/models/image.rb'
 
 task_id = ARGV.first
 

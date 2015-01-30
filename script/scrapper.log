@@ -945,3 +945,10 @@ vendor
 	from /home/luan/.rvm/gems/ruby-2.1.2@rails4.2/gems/activerecord-4.2.0/lib/active_record/relation/delegation.rb:46:in `each'
 	from /home/luan/rails-apps/web_scrapper/app/models/task.rb:27:in `scrap_links'
 	from script/scrapper.rb:27:in `<main>'
+/home/luan/rails-apps/web_scrapper/app/models/task.rb:132:in `render_link': uninitialized constant Task::Mechanize (NameError)
+	from /home/luan/rails-apps/web_scrapper/app/models/task.rb:64:in `scrap_link'
+	from /home/luan/rails-apps/web_scrapper/app/models/task.rb:53:in `block in scrap_links'
+	from /home/luan/.rvm/gems/ruby-2.1.2@rails4.2/gems/activerecord-4.2.0/lib/active_record/relation/delegation.rb:46:in `each'
+	from /home/luan/.rvm/gems/ruby-2.1.2@rails4.2/gems/activerecord-4.2.0/lib/active_record/relation/delegation.rb:46:in `each'
+	from /home/luan/rails-apps/web_scrapper/app/models/task.rb:52:in `scrap_links'
+	from script/scrapper.rb:25:in `<main>'

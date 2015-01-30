@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyText
+  dir: MyText
+  item_id: 1
+  source_url: MyText
+
+two:
+  name: MyText
+  dir: MyText
+  item_id: 1
+  source_url: MyText

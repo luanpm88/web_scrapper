@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150128172044) do
+ActiveRecord::Schema.define(version: 20150130050632) do
 
   create_table "categories", force: :cascade do |t|
     t.text     "name"
@@ -24,8 +24,19 @@ ActiveRecord::Schema.define(version: 20150128172044) do
     t.text     "tag_list"
     t.text     "tag_item_title"
     t.text     "tag_item_link"
-    t.datetime "created_at",     null: false
-    t.datetime "updated_at",     null: false
+    t.datetime "created_at",            null: false
+    t.datetime "updated_at",            null: false
+    t.text     "innerpage_image_regex"
+  end
+
+  create_table "images", force: :cascade do |t|
+    t.text     "name"
+    t.text     "dir"
+    t.integer  "item_id"
+    t.text     "source_url"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.text     "filename"
   end
 
   create_table "items", force: :cascade do |t|
@@ -33,12 +44,13 @@ ActiveRecord::Schema.define(version: 20150128172044) do
     t.text     "link"
     t.text     "content"
     t.text     "price"
-    t.datetime "created_at",  null: false
-    t.datetime "updated_at",  null: false
+    t.datetime "created_at",                  null: false
+    t.datetime "updated_at",                  null: false
     t.integer  "link_id"
     t.integer  "page_id"
     t.integer  "category_id"
     t.integer  "task_id"
+    t.integer  "details_updated", default: 0
   end
 
   create_table "links", force: :cascade do |t|
@@ -64,8 +76,9 @@ ActiveRecord::Schema.define(version: 20150128172044) do
     t.integer  "total"
     t.integer  "error"
     t.integer  "success"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+    t.datetime "created_at",    null: false
+    t.datetime "updated_at",    null: false
+    t.text     "error_message"
   end
 
   create_table "tasks", force: :cascade do |t|

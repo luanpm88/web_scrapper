@@ -1,7 +1,10 @@
 Rails.application.routes.draw do
+  resources :images
+
   resources :items do
     collection do
       get 'datatable'
+      get 'scrap_details'
     end
   end
   

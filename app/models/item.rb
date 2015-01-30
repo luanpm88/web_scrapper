@@ -6,7 +6,12 @@ class Item < ActiveRecord::Base
   belongs_to :category
   belongs_to :task
   
+  has_many :images
+  
   def self.datatable(params)
+    ActionView::Base.send(:include, Rails.application.routes.url_helpers)
+    link_helper = ActionController::Base.helpers
+    
     if !params["order"].nil?
       case params["order"]["0"]["column"]
       when "1"
@@ -37,11 +42,26 @@ class Item < ActiveRecord::Base
     
     data = []
     @items.each do |item|
+      
+      actions = '
+        <div class="btn-group">
+          <button type="button" class="btn btn-sm btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+            Actions <span class="caret"></span>
+          </button>
+          <ul class="dropdown-menu" role="menu">
+            <li>'+link_helper.link_to('Scrap Details', {controller: "items", action: "scrap_details", id: item.id})+'</li>
+            <li>'+link_helper.link_to('Edit', {controller: "items", action: "edit", id: item.id})+'</li>
+            <li>'+link_helper.link_to('Destroy', {controller: "items", id: item.id},"data-confirm" => "Are you sure?", "data-method" => "delete")+'</li>          
+          </ul>
+        </div>
+      '
+      
       item = [
         item.name,
         item.page.name,
         item.category.name,
-        '<a target="_blank" href="'+item.link+'">'+item.link+'</a>'
+        '<a target="_blank" href="'+item.link+'">'+item.link+'</a>',
+        actions
       ]
       data << item
     end 
@@ -54,5 +74,32 @@ class Item < ActiveRecord::Base
     result["data"] = data
     
     return result
+  end
+  
+  def scrap_details
+    details = Task.render_item(self)
+    images = details[:images]
+    
+    valid = true
+    
+    #save image
+    if images.count > 0
+      images.each_with_index do |image,index|
+        if image.download_image(index.to_s)
+          if !image.save
+            valid = false
+          end
+        end
+      end
+    else
+      valid = false
+    end
+    
+    if valid
+      self.update_attribute('details_updated', 1)
+    end
+    
+    
+    return valid
   end
 end

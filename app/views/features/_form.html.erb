@@ -27,6 +27,10 @@
     <%= f.label :tag_item_link %>
     <%= f.text_field :tag_item_link, :class => "form-control" %>
   </div>
+  <div class="field">
+    <%= f.label :innerpage_image_regex %>
+    <%= f.text_field :innerpage_image_regex, :class => "form-control" %>
+  </div>
   <div class="actions">
     <%= f.submit "Save", {:class  => "btn btn-success"} %>
     <%= link_to 'Cancel', features_path, :class => "btn btn-default" %>

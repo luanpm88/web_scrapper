@@ -2,6 +2,7 @@ class Link < ActiveRecord::Base
   validates :name, :presence => true
   validates :feature_id, :presence => true
   validates :source_url, :presence => true
+  validates :source_url, uniqueness: true
   validates :page_id, :presence => true
   validates :category_id, :presence => true
   
@@ -136,5 +137,24 @@ class Link < ActiveRecord::Base
     
     return result
   end
+  
+  def scrap_items
+    items = self.items.where(details_updated: 0)
+    total = items.count
+    success = 0
+    error = 0
+    
+    #scrap item details
+    items.each do |item|
+      if item.scrap_details
+        success += 1
+      else
+        error += 1
+      end
+    end
+    
+    return {total: total, success: success, error: error}
+  end
+  
   
 end
