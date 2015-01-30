@@ -43,6 +43,8 @@ class Item < ActiveRecord::Base
     data = []
     @items.each do |item|
       
+            
+      
       actions = '
         <div class="btn-group">
           <button type="button" class="btn btn-sm btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
@@ -56,10 +58,11 @@ class Item < ActiveRecord::Base
         </div>
       '
       
-      item = [
+      item = [        
         item.name,
         item.page.name,
         item.category.name,
+        '<div class="text-center">'+item.images.count.to_s+'</div>',
         '<a target="_blank" href="'+item.link+'">'+item.link+'</a>',
         actions
       ]
